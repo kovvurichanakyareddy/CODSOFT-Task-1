@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+html,body {
+    background-image: linear-gradient(to right,rgb(105, 198, 234),rgb(104, 71, 150));
+}
+#headerdiv {
+    background-color: grey;
+    height: 100px;
+    padding: 25px;
+    border-radius: 25px;
+    opacity: 95%;
+}
+#topspace {
+    height: 5%;
+}
+#logodiv {
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+    #logo {
+        font-family: 'Courgette', cursive;
+        color: skyblue;
+        font-weight: bolder;
+    }
+    #logolink,#logolink:visited {
+        transition: 0.5s;
+        text-decoration: none;
+    }
+}
+#navbardiv {
+    margin-top: 0.62%;
+    float: right;
+    width: fit-content;
+}
+#nav,#nav:visited {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 19px;
+    transition: 0.5s;
+}
+#nav:hover {
+    color: skyblue;
+}
+#nav:active {
+    color: rgb(100, 23, 131);
+}
+#home {
+    height: 645px;
+    #home1 {
+        height: 20%;
+    }
+    #home2 {
+        height: 80%;
+        #leftgap {
+            height: 100%;
+            width: 10%;
+            float: left;
+        }
+        #profilepic {
+            height: 100%;
+            width: 30%;
+            float: left;
+            #profileimg {
+                height: 75%;
+                border-radius: 50%;
+                transition: 0.5s;
+                opacity: 95%;
+            }
+            #profileimg:hover {
+                height: 75.5%;
+                opacity: 100%;
+                box-shadow: 0 0 5px 5px skyblue;
+            }
+        }
+        #intro {
+            height: 100%;
+            width: 60%;
+            float: left;
+            #introgap {
+                height: 20%;
+            }
+            #introcon {
+                height: 80%;
+                #hithere {
+                    font-size: 48px;
+                    font-family: 'Courgette', cursive;
+                    font-weight: bolder;
+                }
+                #introcontent {
+                    font-size: 32px;
+                    width: 85%;
+                }
+                #imp {
+                    font-family: 'Courgette', cursive;
+                    color: skyblue;
+                    font-weight: bold;
+                    transition: 0.5s;
+                }
+                #imp:hover {
+                    font-size: 34px;
+                    cursor: pointer;
+                    text-shadow: 1px 1px 1px 1px skyblue;
+                }
+            }
+        }
+    }
+}
+#about {
+    height: 300px;
+    background-color: grey;
+    #about1 {
+        height: 15%;
+    }
+    #about2 {
+        height: 85%;
+        #aboutme {
+            height: 30%;
+            font-size: 36px;
+            text-align: center;
+            #amh {
+                color: skyblue;
+                font-family: 'Courgette', cursive;
+                font-weight: bolder;
+            }
+        }
+        #aboutcontent {
+            text-align: center;
+            height: 70%;
+            #acgap {
+                height: 100%;
+                width: 10%;
+                float: left;
+            }
+            #accon {
+                height: 100%;
+                width: 80%;
+                float: left;
+            }
+            #acp {
+                font-size: 20px;
+                word-spacing: 3px;
+                font-weight:500;
+            }
+        }
+    }
+}
+#achievements {
+    height: 850px;
+    #achievements1 {
+        height: 5%;
+    }
+    #achievements2 {
+        height: 95%;
+        #achievementhead {
+            height: 10%;
+            font-size: 36px;
+            text-align: center;
+        }
+        #achievementheading {
+                font-size: 36px;
+                font-family: 'Courgette', cursive;
+                font-weight: bolder;
+        }
+    }
+    #achivedbadges {
+        height: 95%;
+    }
+.achi {
+        padding: 10px;
+    }
+}
+#skills {
+    height: 450px;
+    background-color: grey;
+    #skillgap {
+        height: 5%;
+    }
+    #skillhead {
+        height: 15%;
+        text-align: center;
+    }
+    #skillheading {
+        color: skyblue;
+        font-size: 36px;
+        font-family: 'Courgette', cursive;
+        font-weight: bolder;
+    }
+    #skillbody {
+        height: 80%;
+    }
+    .sk {
+        width: 48%;
+        padding: 20px;
+        padding-left: 40px;
+    }
+    .prog {
+        /* background-color: antiquewhite; */
+        height: 10px;
+        width: 90%;
+    }
+    .progsuv {
+        background-image: linear-gradient(to right,rgb(63, 201, 255),rgb(95, 0, 173));
+        height: 100%;
+        border-radius: 5px;
+    }
+}
+#contact {
+    height: 400px;
+    #contactgap {
+        height: 10%;
+    }
+    #contacthead {
+        text-align: center;
+        height: 30%;
+    }
+    #contactheading {
+        font-size: 36px;
+        font-family: 'Courgette', cursive;
+        font-weight: bolder;
+    }
+    #contactbody {
+        height: 60%;
+    }
+}
+.socgap {
+    float: left;
+    height: 100%;
+    width: 10%;
+}
+.soccon {
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+#socmedicon {
+    font-size: 78px;
+    transition: 0.5s;
+}
+.scr {
+    font-size: 24px;
+    transition: 0.5s;
+}
+#socsub {
+    background-color: grey;
+    width: 45%;
+    border-radius: 30px;
+    .aaa,.aaa:visited {
+        text-decoration: none;
+    }
+    .aaa:hover {
+        #socmedicon,.scr {
+            color: rgb(28, 166, 220);
+        }
+    }
+    .aaa:active {
+        #socmedicon,.scr {
+            color: rgb(100, 23, 131);
+        }
+    }
+}
+#footerdiv {
+    background-color: grey;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    height: 100px;
+    #footertop {
+        height: 35%;
+    }
+}
